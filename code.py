@@ -3,7 +3,7 @@
 # green (2), or blue (3). The program continues running until the user presses 'q' to quit. 
 # It handles invalid inputs using a try/except block and ensures the LEDs change color based on the user's choicefrom adafruit_circuitplayground import cp
 
-from adafruit_circuitplayground import cp # type: ignore
+from adafruit_circuitplayground import cp
 
 # Define color tuples for red, green, and blue
 red = (255, 0, 0)
@@ -56,5 +56,4 @@ while True:
 
     except ValueError:
         print("Invalid input. Please enter a number (1, 2, or 3) or 'q' to quit.")
-
 

@@ -1,6 +1,6 @@
 
 import time
-from adafruit_circuitplayground import cp # type: ignore
+from adafruit_circuitplayground import cp
 
 cp.pixels.auto_write = False
 cp.pixels.brightness = 0.3
